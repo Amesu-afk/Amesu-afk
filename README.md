@@ -4,7 +4,7 @@ I build **[TarnVeil](https://tarnveil.ru)** — a messenger with end-to-end encr
 video calls and communities, for Windows, Android and the web. Including the parts that apps
 usually buy or borrow: its own media server and its own noise suppression.
 
-| | |
+| Project | What it is |
 |---|---|
 | 🎛️ **[tarnmedia](https://github.com/Amesu-afk/tarnmedia)** | A small, readable WebRTC SFU in Go on top of Pion. About 1,500 lines — short enough to read in full and see how an SFU actually works. Carries every TarnVeil call in production. |
 | 🔇 **[tarnveil-denoise](https://github.com/Amesu-afk/tarnveil-denoise)** | Neural microphone noise suppression for the browser, trained from scratch: breathing, fans, keyboard and mouse, all on-device. Numbers measured on real recordings, weak spots listed. [Listen to before / after →](https://tarnveil.ru/en/remove-keyboard-noise.html) |
@@ -15,5 +15,5 @@ usually buy or borrow: its own media server and its own noise suppression.
 
 ---
 
-🇷🇺 Делаю мессенджер **TarnVeil**: личка со сквозным шифрованием, звонки, сообщества.
+**По-русски.** Делаю мессенджер **TarnVeil**: личка со сквозным шифрованием, звонки, сообщества.
 Медиасервер и шумодав открыты — ссылки выше. Скачать или открыть в браузере — [tarnveil.ru](https://tarnveil.ru).
