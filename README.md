@@ -1,4 +1,4 @@
-### Hi, I'm Amesu 👋
+### Hi, I'm Amesu 
 
 I build **[TarnVeil](https://tarnveil.ru)** — a messenger with end-to-end encrypted DMs, voice and
 video calls and communities, for Windows, Android and the web. Including the parts that apps
