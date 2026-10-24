@@ -1,19 +1,25 @@
-### Hi, I'm Amesu 
+# Hi, I'm Amesu
 
-I build **[TarnVeil](https://tarnveil.ru)** — a messenger with end-to-end encrypted DMs, voice and
-video calls and communities, for Windows, Android and the web. Including the parts that apps
-usually buy or borrow: its own media server and its own noise suppression.
+I build communication and networking tools — from the interface to the media server and audio models.
 
-| Project | What it is |
+**[Try TarnVeil](https://tarnveil.ru)** · **[Download TarnVPN](https://github.com/Amesu-afk/TarnVPN/releases/tag/v1.14.0-alpha.68)** · **[Hear the denoiser](https://tarnveil.ru/en/remove-keyboard-noise.html)**
+
+## Projects
+
+| Project | What you can use |
 |---|---|
-|  **[tarnmedia](https://github.com/Amesu-afk/tarnmedia)** | A small, readable WebRTC SFU in Go on top of Pion. Documented architecture and limitations. Carries every TarnVeil call in production. |
-|  **[tarnveil-denoise](https://github.com/Amesu-afk/tarnveil-denoise)** | Neural microphone noise suppression for the browser, trained from scratch: breathing, fans, keyboard and mouse, all on-device. [npm package](https://www.npmjs.com/package/tarnveil-denoise) and local recorder example. Reproducible benchmark on mixed recordings; speech can change and some clicks remain. [Listen to before / after →](https://tarnveil.ru/en/remove-keyboard-noise.html) |
-|  **[TarnVPN](https://github.com/Amesu-afk/TarnVPN)** | Android VPN client for blocked networks: VLESS + REALITY, XHTTP, a WebRTC tunnel. Bring your own server — a fork of sing-box-for-android with an interface built for the job. |
-|  **[TarnVeil](https://github.com/Amesu-afk/TarnVeil)** | Downloads and release notes for the messenger itself. |
+| **[TarnVeil](https://github.com/Amesu-afk/TarnVeil)** | Messenger for Windows, Android and the web: end-to-end encrypted DMs, voice/video calls and communities. [Open the app →](https://tarnveil.ru) |
+| **[TarnVPN](https://github.com/Amesu-afk/TarnVPN)** | Android VPN client with VLESS/REALITY, XHTTP, subscriptions and an olcRTC WebRTC tunnel. Bring your own server. Built on SFA and Leadaxe's sing-box-lx. [Download alpha.68 →](https://github.com/Amesu-afk/TarnVPN/releases/tag/v1.14.0-alpha.68) |
+| **[tarnmedia](https://github.com/Amesu-afk/tarnmedia)** | WebRTC SFU in Go on Pion, used for TarnVeil calls. Read the architecture, run it, or inspect the documented limitations. |
+| **[tarnveil-denoise](https://github.com/Amesu-afk/tarnveil-denoise)** | Neural microphone noise suppression running on-device in the browser. [npm package](https://www.npmjs.com/package/tarnveil-denoise), local recorder and a reproducible benchmark. Speech can change and some clicks remain. [Before / after →](https://tarnveil.ru/en/remove-keyboard-noise.html) |
 
-**Stack:** Go · TypeScript / React · Node.js · Kotlin · PyTorch → ONNX · WebRTC · PostgreSQL
+**Stack:** Go · TypeScript / React · Node.js · Kotlin · PyTorch / ONNX · WebRTC · PostgreSQL
 
----
+## По-русски
 
-**По-русски.** Делаю мессенджер **TarnVeil**: личка со сквозным шифрованием, звонки, сообщества.
-Медиасервер и шумодав открыты — ссылки выше. Скачать или открыть в браузере — [tarnveil.ru](https://tarnveil.ru).
+Делаю **[TarnVeil](https://tarnveil.ru)** — мессенджер с зашифрованной личкой, звонками и сообществами,
+и **[TarnVPN](https://github.com/Amesu-afk/TarnVPN)** — Android-клиент для своего сервера или подписки.
+Медиасервер и браузерный шумодав открыты: код, примеры и ограничения — по ссылкам выше.
+
+Нашли ошибку или хотите предложить улучшение? Откройте issue в соответствующем репозитории
+и опишите шаги воспроизведения. English and Russian are welcome.
